@@ -148,7 +148,7 @@ def categorize_review(review):
     # If no keywords found, return "Unknown"
     return "Unknown"
 
-st.title('Customer Review Labeling and Categorization App')
+st.title('Review Labeling and Categorization App')
 
 uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
 
